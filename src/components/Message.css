@@ -1,0 +1,39 @@
+.message {
+  display: flex;
+  margin-bottom: 5px;
+  max-width: 90%;
+  position: relative;
+}
+
+.message.message__sender {
+  align-self: flex-end;
+}
+
+.message__info {
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 45px;
+  background-color: #efefef;
+  border-radius: 12px;
+}
+
+.message__name {
+  font-size: 10px;
+  color: #8a82be;
+  font-weight: 700;
+}
+
+.message__timestamp {
+  font-size: 9px;
+  text-align: right;
+  padding-right: 5px;
+  color: #baadb4;
+}
+
+.message__receiverAvatar {
+  position: absolute;
+}
+
+.message__sender .message__info {
+  background-color: #d8ebff;
+}
